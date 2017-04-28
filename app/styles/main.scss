@@ -1,0 +1,175 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+
+.sidebar{
+
+  width:20%;
+  background-color: rgb(37, 37, 37);
+  position:fixed;
+  height:100%;
+}
+
+.header_description{
+  color: #fff;
+    font-family: 'Roboto', sans-serif;
+      padding: .4rem 1.5rem;
+      font-size: larger;
+}
+
+p{
+  color: hsla(0,0%,100%,.5);
+    font-family: 'Source Sans Pro', sans-serif;
+      padding: .4rem 1.5rem;
+      font-size: small  ;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color:white;
+}
+
+.sidebar_nav a{
+  display: block;
+  padding: .4rem 1.5rem;
+    color: #fff;
+    font-size: .95rem
+}
+
+.sidebar_nav a:hover{
+ background: #3f3f3f;
+}
+
+.logo{
+  margin:.4rem 1.5rem;
+  width:100px;
+  height:100px;
+}
+
+// main contnent
+
+.content_container{
+  // background: #524f4f;
+  float: right;
+  width: 80%;
+  min-height: 100%;
+  position: relative;
+}
+// genre hover list
+h2{
+  text-transform:uppercase;
+  display:block;
+  color:#5d4361;
+  margin:0 auto;
+  width:300px;
+   align-items:center;
+
+}
+
+.genre_list{
+  display:flex;
+  width:80%;
+  margin:0 auto;
+  margin-top:20px;
+  justify-content:space-around;
+  list-style-type:none;
+  background: white;
+}
+
+
+
+
+//games list
+
+.games_list{
+  padding-left: 10px;
+  margin:0 auto;
+  list-style-type: none;
+  width:80%;
+}
+ list{
+   cursor: pointer;
+    display:block;
+    padding:1em;
+    background: #252525;
+ }
+
+ list:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+list h3{
+  display: inline-block;
+  margin:0px;
+  float:left;
+  color:white;
+
+  font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+  // border:1px solid gray;
+  margin-left:5px;
+}
+
+.list_right{
+  display:inline-block;
+  float:right;
+  color:white;
+  padding:2em 0 0 0;
+  font-size: larger;
+  // border: 1px solid green;
+  margin-right:10px;
+}
+ list h6{
+  display:inline-block;
+   margin:0px;
+}
+
+list p{
+  font-family: 'Roboto', sans-serif;
+  display:inline-block;
+  margin:0px;
+}
+
+
+
+.games_list li{
+  margin-top:10px;
+}
+
+list i{
+  color:white;
+  margin-left:3px;
+}
+
+.cart_fixed{
+  position:fixed;
+  right:5px;
+  top:5px;
+}
+
+.cart_fixed i{
+  color:#94c325;
+}
+
+.cartItem_number{
+  z-index: 10;
+position: absolute;
+font-size: small;
+background: black;
+color: white;
+width: 17px;
+height: 16px;
+text-align: center;
+border-radius: 20px;
+left: -8px;
+bottom: 8px;
+}
+
+.gameLogo{
+  float:left;
+  width:100px;height:100px;
+}
